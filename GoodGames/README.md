@@ -23,6 +23,7 @@ This machine provides a realistic attack chain from initial access to remote cod
 ## Reconnaissance
 
 Initial enumeration revealed a web application hosted on port 80.
+
 ![Dashboard Page](https://github.com/R-Galarza/htb-writeups-retired/blob/32c7c3cbf95b5bd40bbb73c1087cc8ecc1455fa5/GoodGames/images/dashboard.png)
 
 The application presents a video game store with limited functionality
@@ -111,10 +112,13 @@ This can lead to:
 
 The profile editing functionality reflects user-controlled input
 without proper sanitization.
+
 ![SSTI](https://github.com/R-Galarza/htb-writeups-retired/blob/f42e06812e1b05b15da175aab10f35d41bb14b54/GoodGames/images/SSTI.png)
 
 Testing with template expressions confirmed the presence of SSTI.
+
 ![SSTI2](https://github.com/R-Galarza/htb-writeups-retired/blob/f42e06812e1b05b15da175aab10f35d41bb14b54/GoodGames/images/SSTI2.png)
+
 ### Proof of Concept
 
 Payload used (Jinja2):
