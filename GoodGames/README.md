@@ -59,7 +59,6 @@ In order to retrieve additional data and expand the attack surface, an automated
 
 The analysis successfully dumped sensitive information from the database, including valid credentials (which will not be disclosed in this writeup for ethical reasons).
 
-However, the extracted credentials could not be directly reused, as there was no functional entry point within the application where they could be authenticated.
 
 ### Command Used
 
