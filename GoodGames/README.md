@@ -19,7 +19,15 @@ This machine provides a realistic attack chain from initial access to remote cod
 - Hostname: `goodgames.htb`
 
 ---
+## OWASP Top 10 2025 Mapping
 
+| ID  | Category                                   | Reason   |
+|-----|--------------------------------------------|-------------|
+| A05 | Injection                                  | SQLi + SSTI |
+
+
+
+---
 ## Reconnaissance
 
 Initial enumeration revealed a web application hosted on port 80.
