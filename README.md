@@ -1,4 +1,4 @@
-# Hack The Box – Retired Machines Writeups
+# OWASP Top 10 (2025) – Hack The Box Retired Labs
 
 This repository contains detailed writeups of **retired Hack The Box machines**, focused on understanding **real-world security vulnerabilities** rather than solving CTF-style challenges.
 
